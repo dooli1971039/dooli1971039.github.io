@@ -4,6 +4,6 @@ const chosenImage=images[Math.floor(Math.random()*images.length)];
 
 const left=document.querySelector("#left");
 
-const bgImage=document.createElement("img");
-bgImage.src=`img/${chosenImage}`;
-left.appendChild(bgImage);
+src=`img/${chosenImage}`;
+const img=document.querySelector("#mushroom");
+img.src=src; 
